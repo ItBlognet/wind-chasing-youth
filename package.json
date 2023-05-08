@@ -1,0 +1,16 @@
+{
+  "name": "ruauto_docs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "ruauto.cn",
+  "author": "NGio <yuitge@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/plugin-search": "^2.0.0-beta.61",
+    "vuepress": "^2.0.0-beta.61"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
